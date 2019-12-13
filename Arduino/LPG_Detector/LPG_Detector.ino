@@ -37,6 +37,10 @@
   loop - After creating a setup() function, which initializes and sets the initial values, the loop() function does precisely what its name suggests, and loops consecutively, allowing your program to change and respond.
   
   Serial.begin(9600) - Sets the data rate in bits per second (baud) for serial data transmission, default is 9600
+
+  Serial.print - Prints data to serial monitor
+
+  Serial.println - Prints data to serial monitor on next line
   
   pinMode - Configures the specified pin to behave either as an input or an output. It takes two arguments
             First arguments tells the name of pin, and second argument tells the type of pin, either INPUT or OUTPUT
@@ -55,7 +59,7 @@
          syntax 2 - tone(pin, frequency, duration)
   noTone - Stops the generation of a square wave triggered by tone(). Has no effect if no tone is being generated.
            It takes only one argument which is name
-
+           
   delay - Pauses the program for the amount of time (in milliseconds) specified as parameter. (There are 1000 milliseconds in a second.)
 */
 
