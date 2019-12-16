@@ -16,9 +16,9 @@
    -----------
         Break out          |     Arduino Uno
    --------------------------------------------
-        MQ6 VCC            |        5V
-        MQ6 GND            |        GND
-        MQ6 Analog Pin     |        A2
+        Flame Sensor VCC   |        5V
+        Flame Sensor GND   |        GND
+        Flame Sensor Pin   |        8
         Buzzer GND         |        GND
         Buzzer OUT         |        2
         Red LED OUT        |        3
@@ -63,7 +63,7 @@
   delay - Pauses the program for the amount of time (in milliseconds) specified as parameter. (There are 1000 milliseconds in a second.)
 */
 
-int sensorPin = 7;    // Variable to control Flame Sensor (Data will be received in Digital Form)
+int sensorPin = 8;    // Variable to control Flame Sensor (Data will be received in Digital Form)
 int buzzer = 2;
 int redLed = 3;
 int greenLed = 4;

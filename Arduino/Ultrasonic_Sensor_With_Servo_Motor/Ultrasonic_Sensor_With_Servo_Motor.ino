@@ -44,7 +44,7 @@
 #define trigPin 3       // This pin gets triggered when it receive returned ultrasonic waves
 int ledPin   = 7;       // choose the pin for the LED
 int buzzer = 8;         // choose pin for the buzzer
-int servoPin = 5;       // Servo Pin
+int servoPin = 6;       // Servo Pin
 
 Servo Servo1;           // creating servo object
 
@@ -83,7 +83,7 @@ void loop() {
     tone(buzzer, 1000);
     Servo1.write(180); //moving motor
     Serial.println("Arm Moved");
-    delay(7000);
+    delay(2000);
   }
   delay(200);
 }
