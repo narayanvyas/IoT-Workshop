@@ -3,8 +3,8 @@
 #include "Adafruit_MQTT_Client.h"
 
 // the OnOff button feed turns this RELAY on/off
-#define myDeviceOne 5  // ESP8266 GPIO2
-#define myDeviceTwo 4  // ESP8266 GPIO2
+#define myDeviceOne 5  // ESP8266 GPIO5
+#define myDeviceTwo 4  // ESP8266 GPIO4
 
 /************************* WiFi Access Point *********************************/
 

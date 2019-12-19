@@ -1,10 +1,10 @@
 #include <Wire.h>
 #include <Adafruit_Sensor.h>
+#include "ThingSpeak.h"
 #include <Adafruit_BME280.h>
 #include <ESP8266WiFi.h>    // Header File for ESP8266 NodeMCU
 #include "Adafruit_MQTT.h"
 #include "Adafruit_MQTT_Client.h"
-
 /* Set these to your desired credentials. */
 const char *ssid = "Redmi";
 const char *password = "123456789";
